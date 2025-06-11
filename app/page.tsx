@@ -5,7 +5,7 @@ export default async function HomePage() {
     let marcas = await response.json();
   return (
     <div className="p-4">
-      <h1>Página Inicial</h1>
+      <h1>Página Iniciall</h1>
      <ul>
           {marcas.map((marca) => (
             <li key={marca.id}>{marca.nome}</li>
