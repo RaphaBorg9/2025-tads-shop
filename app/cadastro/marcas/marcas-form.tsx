@@ -20,7 +20,7 @@ export function MarcasForm() {
               Cancelar
             </Button>
           </Link>
-          <Button type="button">
+          <Button type="submit">
             <SaveIcon />
             Salvar
           </Button>
